@@ -1,0 +1,50 @@
+
+.Search{
+    padding: 10px 0 10px 10vw;
+}
+
+.Search h2{
+    opacity: 0.6;
+}
+
+.Search p{
+    font-size: 10px
+}
+
+.Search input{
+    padding: 10px;
+    width: 300px;
+}
+
+.group{
+    position: relative;
+}
+
+.Search button{
+    position: absolute;
+    top: 4px;
+    left: 260px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.Search button:hover{
+    color: red;
+    opacity: 1;
+}
+
+/*Fix For mobile devices */
+@media only screen and (max-width: 400px) {
+    .Search input{
+        width: 200px;
+    }
+
+    .Search button{
+        left: 160px;
+    }
+}
