@@ -1,0 +1,13 @@
+.places{
+    position: absolute;
+    border: solid 1px black;
+    left: 10vw;
+    top: 250px;
+    width: 320px;
+    background: white;
+    z-index: -1;
+}
+
+.places p {
+    padding: 0 0 0 10px;
+}
