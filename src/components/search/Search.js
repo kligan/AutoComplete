@@ -2,8 +2,8 @@ import {SearchContent} from '../Data';
 import './Search.css';
 
 function Search ({value, setSearch}){
+    const {title, label, button} = SearchContent; //Object destructuring, assignment of values to SearchContent
 
-    const {title, label, button} = SearchContent;
   return (
       <>
           <div className="Search">

@@ -1,3 +1,5 @@
+// Reusable function to perform an API call and to handle error
+
 const Fetch = async (url) =>{
     let response = await fetch(url);
     if (response.ok) {

@@ -38,6 +38,7 @@
     opacity: 1;
 }
 
+/*Fix For mobile devices */
 @media only screen and (max-width: 400px) {
     .Search input{
         width: 200px;
