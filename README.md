@@ -4,8 +4,6 @@ Requirements 1.Node.js 2.IDE
 
 STEPS
 
-Github repository path - https://github.com/kligan/react_optIn.git
-
 1. Create a new folder e.g 'FolderX'
 2. git clone git@github.com:kligan/AutoComplete.git -
 Using gitbash or GitHub desktop navigate to the directory path and run the command above
