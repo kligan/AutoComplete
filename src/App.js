@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import './App.css';
 import Search from './components/search/Search';
-import Places from './components/Places/Places';
+import Places from './components/places/Places';
 import Fetch from './components/Fetch';
 import Title from './components/title/Title'
 

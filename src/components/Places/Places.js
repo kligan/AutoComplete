@@ -6,7 +6,7 @@ function Places ({places, select}){
             <div className="places">
                 {places && places.map((data, index)=>{
                     return (
-                    <div key={index} onClick={()=>{select(data.name)}}>
+                    <div className="item" key={index} onClick={()=>{select(data.name)}}>
                         <p>{data.name}</p>
                     </div>
                     )
